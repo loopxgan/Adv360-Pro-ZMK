@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &trans  &kp F1   &kp F2   &kp F3   &kp F4  &kp F5                              &tog 1                                                   &mo 3          &kp F6             &kp F7             &kp F8           &kp F9             &kp F10  &kp F11
- &trans  &kp F5   &kp F6   &kp F7   &kp F8  &trans             &macro_mac_left_desktop                                                   &none          &trans             &trans             &trans           &trans              &trans  &kp F12
- &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans            &macro_mac_right_desktop  &trans  &trans                  &trans  &trans   &none  &kp LEFT_ARROW     &kp DOWN_ARROW       &kp UP_ARROW  &kp RIGHT_ARROW              &trans   &trans
- &trans  &trans   &trans   &trans   &trans  &trans                                              &trans                  &trans                          &trans             &trans             &trans           &trans              &trans   &trans
- &trans  &trans   &trans   &trans   &trans                                      &trans  &trans  &trans                  &trans  &trans  &trans                  &macro_vdesk_left  &macro_vdesk_down  &macro_vdesk_up  &macro_vdesk_right   &trans
+ &trans           &kp F1            &kp F2            &kp F3            &kp F4  &kp F5                              &tog 1                                                   &mo 3          &kp F6             &kp F7             &kp F8           &kp F9             &kp F10  &kp F11
+ &trans           &kp F5            &kp F6            &kp F7            &kp F8  &trans             &macro_mac_left_desktop                                                   &none          &trans             &trans             &trans           &trans              &trans  &kp F12
+ &trans           &kp F9           &kp F10           &kp F11           &kp F12  &trans            &macro_mac_right_desktop  &trans  &trans                  &trans  &trans   &none  &kp LEFT_ARROW     &kp DOWN_ARROW       &kp UP_ARROW  &kp RIGHT_ARROW              &trans   &trans
+ &trans  &macro_shift_f9  &macro_shift_f10  &macro_shift_f11  &macro_shift_f12  &trans                                              &trans                  &trans                          &trans             &trans             &trans           &trans              &trans   &trans
+ &trans           &trans            &trans            &trans            &trans                                      &trans  &trans  &trans                  &trans  &trans  &trans                  &macro_vdesk_left  &macro_vdesk_down  &macro_vdesk_up  &macro_vdesk_right   &trans
             >;
         };
 
