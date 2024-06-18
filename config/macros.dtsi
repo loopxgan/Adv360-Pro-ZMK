@@ -2,25 +2,25 @@ macro_vdesk_up: macro_vdesk_up{
 compatible = "zmk,behavior-macro";
 label = "macro_vdesk_up";
 #binding-cells = <0>;
-bindings = <&kp LC(LG(UP_ARROW))>;
+bindings = <&kp LC(LA(LS(UP_ARROW)))>;
 };
 macro_vdesk_down: macro_vdesk_down{
 compatible = "zmk,behavior-macro";
 label = "macro_vdesk_down";
 #binding-cells = <0>;
-bindings = <&kp LC(LG(DOWN_ARROW))>;
+bindings = <&kp LC(LA(LS(DOWN_ARROW)))>;
 };
 macro_vdesk_right: macro_vdesk_right{
 compatible = "zmk,behavior-macro";
 label = "macro_vdesk_right";
 #binding-cells = <0>;
-bindings = <&kp LC(LG(RIGHT_ARROW))>;
+bindings = <&kp LC(LA(LS(RIGHT_ARROW)))>;
 };
 macro_vdesk_left: macro_vdesk_left{
 compatible = "zmk,behavior-macro";
 label = "macro_vdesk_left";
 #binding-cells = <0>;
-bindings = <&kp LC(LG(LEFT_ARROW))>;
+bindings = <&kp LC(LA(LS(LEFT_ARROW)))>;
 };
 macro_shift_f12: macro_shift_f12{
 compatible = "zmk,behavior-macro";
